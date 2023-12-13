@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://hm7tii8hhr1k"]
+
+[ext_resource type="Script" path="res://chapter_scene.gd" id="1_r8i44"]
+
+[node name="ChapterScene" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_r8i44")
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+bbcode_enabled = true
+text = "sdsdfsd"
+fit_content = true
